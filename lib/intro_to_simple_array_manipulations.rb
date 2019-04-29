@@ -21,3 +21,12 @@ def using_shift(arr)
   arr.shift()
 end
 
+def shift_with_args(arr)
+  arg = []
+  arg << arr.shift()
+  arg << arr.shift()
+  arg
+end
+
+def using_concat(arr1, arr2)
+  
