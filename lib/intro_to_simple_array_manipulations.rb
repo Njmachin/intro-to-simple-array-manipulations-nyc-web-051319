@@ -33,7 +33,7 @@ def using_concat(arr1, arr2)
 end
 
 def using_insert(arr, ele)
-  arr.inset(4, ele)
+  arr.insert(4, ele)
 end
 
 def using_uniq(arr)
@@ -41,9 +41,9 @@ def using_uniq(arr)
 end
 
 def using_flatten(arr)
-  arr.using_flatten
+  arr.flatten
 end
 
-def using_delete(arr, str)
+def using_delete_at(arr, str)
   arr.delete(str)
 end
